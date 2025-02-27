@@ -1,0 +1,21 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/Directed_test.v,1740660572,verilog,,,,Directed_test,,,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/FA_tb.v,1731167824,verilog,,,,FA_tb,,,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/FIFO_IO.sv,1740642676,systemVerilog,,D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/automatic_test.sv,,FIFO_IO,,uvm,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/FIFO_TEST_TOP.sv,1740626779,systemVerilog,,,,FIFO_TEST_TOP,,uvm,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/Reg_Array_tb.v,1731338357,verilog,,,,Reg_Array_tb,,,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/add8_tb.v,1731245988,verilog,,,,add8_tb,,,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/automatic_test.sv,1740659859,systemVerilog,,D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/FIFO_TEST_TOP.sv,,test,,uvm,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/Controller.v,1740662085,verilog,,D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/Pointer.v,,Controller,,uvm,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/FA.v,1731166567,verilog,,D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/Mux2_1b.v,,FA,,,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/Mux2_1b.v,1731168997,verilog,,D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/add4.v,,mux2_1b,,,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/Pointer.v,1740660792,verilog,,D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/RegArray.v,,Pointer,,uvm,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/RegArray.v,1740644481,verilog,,D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/SOC_FIFO.v,,RegArray,,uvm,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/SOC_FIFO.v,1740662174,verilog,,D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/Directed_test.v,,SOC_FIFO,,uvm,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/add4.v,1731168378,verilog,,D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/add8.v,,add4,,,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/add8.v,1731169390,verilog,,D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/mux2b.v,,add8,,,,,,,,
+D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sources_1/new/mux2b.v,1731168150,verilog,,D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/add8_tb.v,,mux2_4b,,,,,,,,

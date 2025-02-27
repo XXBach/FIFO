@@ -1,0 +1,252 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Thu Feb 27 21:03:03 2025
+| Host         : LAPTOP-K5G8HKBB running 64-bit major release  (build 9200)
+| Command      : report_methodology -file SOC_FIFO_methodology_drc_routed.rpt -pb SOC_FIFO_methodology_drc_routed.pb -rpx SOC_FIFO_methodology_drc_routed.rpx
+| Design       : SOC_FIFO
+| Device       : xc7vx485tffg1761-2
+| Speed File   : -2
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 43
++-----------+----------+--------------------------------+------------+
+| Rule      | Severity | Description                    | Violations |
++-----------+----------+--------------------------------+------------+
+| TIMING-16 | Warning  | Large setup violation          | 2          |
+| TIMING-20 | Warning  | Non-clocked latch              | 40         |
+| LATCH-1   | Advisory | Existing latches in the design | 1          |
++-----------+----------+--------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -3.440 ns between CTRL/Full_reg/C (clocked by CLK) and Full (clocked by CLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -3.463 ns between CTRL/Empty_reg/C (clocked by CLK) and Empty (clocked by CLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch RA/DOUT_reg[0] cannot be properly analyzed as its control pin RA/DOUT_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch RA/DOUT_reg[1] cannot be properly analyzed as its control pin RA/DOUT_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch RA/DOUT_reg[2] cannot be properly analyzed as its control pin RA/DOUT_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch RA/DOUT_reg[3] cannot be properly analyzed as its control pin RA/DOUT_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch RA/DOUT_reg[4] cannot be properly analyzed as its control pin RA/DOUT_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch RA/DOUT_reg[5] cannot be properly analyzed as its control pin RA/DOUT_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch RA/DOUT_reg[6] cannot be properly analyzed as its control pin RA/DOUT_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch RA/DOUT_reg[7] cannot be properly analyzed as its control pin RA/DOUT_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[0][0] cannot be properly analyzed as its control pin RA/reg_array_reg[0][0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[0][1] cannot be properly analyzed as its control pin RA/reg_array_reg[0][1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[0][2] cannot be properly analyzed as its control pin RA/reg_array_reg[0][2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[0][3] cannot be properly analyzed as its control pin RA/reg_array_reg[0][3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[0][4] cannot be properly analyzed as its control pin RA/reg_array_reg[0][4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[0][5] cannot be properly analyzed as its control pin RA/reg_array_reg[0][5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[0][6] cannot be properly analyzed as its control pin RA/reg_array_reg[0][6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[0][7] cannot be properly analyzed as its control pin RA/reg_array_reg[0][7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[1][0] cannot be properly analyzed as its control pin RA/reg_array_reg[1][0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[1][1] cannot be properly analyzed as its control pin RA/reg_array_reg[1][1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[1][2] cannot be properly analyzed as its control pin RA/reg_array_reg[1][2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[1][3] cannot be properly analyzed as its control pin RA/reg_array_reg[1][3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[1][4] cannot be properly analyzed as its control pin RA/reg_array_reg[1][4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[1][5] cannot be properly analyzed as its control pin RA/reg_array_reg[1][5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[1][6] cannot be properly analyzed as its control pin RA/reg_array_reg[1][6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[1][7] cannot be properly analyzed as its control pin RA/reg_array_reg[1][7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[2][0] cannot be properly analyzed as its control pin RA/reg_array_reg[2][0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[2][1] cannot be properly analyzed as its control pin RA/reg_array_reg[2][1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[2][2] cannot be properly analyzed as its control pin RA/reg_array_reg[2][2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[2][3] cannot be properly analyzed as its control pin RA/reg_array_reg[2][3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[2][4] cannot be properly analyzed as its control pin RA/reg_array_reg[2][4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[2][5] cannot be properly analyzed as its control pin RA/reg_array_reg[2][5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[2][6] cannot be properly analyzed as its control pin RA/reg_array_reg[2][6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[2][7] cannot be properly analyzed as its control pin RA/reg_array_reg[2][7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[3][0] cannot be properly analyzed as its control pin RA/reg_array_reg[3][0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[3][1] cannot be properly analyzed as its control pin RA/reg_array_reg[3][1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[3][2] cannot be properly analyzed as its control pin RA/reg_array_reg[3][2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[3][3] cannot be properly analyzed as its control pin RA/reg_array_reg[3][3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[3][4] cannot be properly analyzed as its control pin RA/reg_array_reg[3][4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[3][5] cannot be properly analyzed as its control pin RA/reg_array_reg[3][5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[3][6] cannot be properly analyzed as its control pin RA/reg_array_reg[3][6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch RA/reg_array_reg[3][7] cannot be properly analyzed as its control pin RA/reg_array_reg[3][7]/G is not reached by a timing clock
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 40 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+

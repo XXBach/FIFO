@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Redemption.srcs/sources_1/new/Controller.v" \
+"../../../../Redemption.srcs/sources_1/new/Pointer.v" \
+"../../../../Redemption.srcs/sources_1/new/RegArray.v" \
+"../../../../Redemption.srcs/sources_1/new/SOC_FIFO.v" \
+
+sv xil_defaultlib  \
+"../../../../Redemption.srcs/sim_1/new/FIFO_IO.sv" \
+"../../../../Redemption.srcs/sim_1/new/automatic_test.sv" \
+"../../../../Redemption.srcs/sim_1/new/FIFO_TEST_TOP.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

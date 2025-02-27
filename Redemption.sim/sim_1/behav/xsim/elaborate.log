@@ -1,0 +1,12 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot FIFO_TEST_TOP_behav xil_defaultlib.FIFO_TEST_TOP xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-4953] event edge posedge has no meaning when used with a clocking block and will be ignored [D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/automatic_test.sv:54]
+WARNING: [VRFC 10-4953] event edge posedge has no meaning when used with a clocking block and will be ignored [D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/automatic_test.sv:71]
+WARNING: [VRFC 10-4953] event edge posedge has no meaning when used with a clocking block and will be ignored [D:/Sem2Year3/Redemption/SoC_Lab1/Redemption/Redemption.srcs/sim_1/new/automatic_test.sv:84]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
