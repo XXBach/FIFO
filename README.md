@@ -1,6 +1,7 @@
 # FIFO
 A FIFO RTL design to learn how to write a test using SystemVerilog
 FIFO module spec
+![image alt](https://github.com/XXBach/FIFO/blob/main/image.png)
 + DIN[W-1:0], DOUT[W-1:0]: Data to be written and output read data, respectively 
 • WEn: Write Enable instructs the FIFO to write the data on DIN to the next available location in the register array if sufficient space will be available. Note the user can assert this signal even when sufficient space will not be available and your FIFO logic must NOT write/update the register array in that case (i.e. Don't assume the user will only assert this signal under appropriate conditions.) 
 • REn: Read Enable indicates that the consumer is about to consume the data on DOUT and the FIFO can eventually overwrite the current data item and begin to output the next available data on the next clock edge. 
